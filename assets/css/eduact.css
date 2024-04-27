@@ -16364,8 +16364,76 @@ body.boxed-wrapper .hero-banner__thumb {
   
 }
 
+.bluebg-one .bluebg-one_head{
+  color: #fff;
+}
+
+.carousel-control-prev{
+position: absolute;
+left: -120px;
+}
+
+.carousel-control-next{
+  position: absolute;
+  right: -120px;
+  }
+
+.carousel-control-prev span{
+  color: #0022d0 !important;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-control-next span {
+  color: #0022d0 !important;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 10px;
+}
 
 @media (max-width: 521px) {
+  .bluebg-one .bluebg-one_head{
+    font-size: 15px;
+    font-weight: 600;
+    
+  }
+
+  .crmvideo-one-white {
+    border-radius: 55px;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    padding: 58px 47px 0;
+    margin: 30px -23px -41px !important;
+}
+
+  .bluebg-one .bluebg-one_title{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .bluebg-one .bluebg-one_content{
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .bluebg-one .carousel {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.carousel-control-prev{
+  position: absolute;
+  left: -20px;
+  }
+  
+  .carousel-control-next{
+    position: absolute;
+    right: -20px;
+    }
+  
   .featured-one .customer_content{
     margin-top: -150px;
     margin-left: 10px;
@@ -16534,6 +16602,24 @@ body.boxed-wrapper .hero-banner__thumb {
   padding: 51px 11px 0 !important;
 
 }
+
+.bluebg-one{
+	position: relative;
+	padding-left: 10px;
+  padding-right: 10px;
+	z-index: 2;
+  background-color: #0123D1;
+  color: #fff;
+}
+
+
+.whychose-sec .customer_content h2 {
+  font-size: 25px !important;
+  color: black;
+
+
+}
+
 }
 @media (max-width: 991px) {
   .feature-block_one-inner {
@@ -16548,6 +16634,95 @@ body.boxed-wrapper .hero-banner__thumb {
     width: 36%;
     margin: 0 0 10px;
 }
+.whychose-sec{
+  padding-top: 110px;
+}
+
+/* .whychose-sec .customer_content h2 {
+  font-size: 40px !important;
+  color: black;
+
+} */
+
+.entrpse-img {
+  display: none;
+}
+
+.entrprse-con {
+  position: relative;
+  height: auto !important;
+}
+}
+
+@media only screen and (max-width: 1160px) {
+  .max-img {
+      width: 33%;
+  }
+
+.max-img2 {
+  width: 44%;
+}
+
+}
+
+.max-img1 {
+  width: 21.2%;
+  margin: 0 10px 10px 0;
+}
+
+.max-img3 {
+  width: 54.6%;
+}
+
+@media only screen and (max-width: 992px) {
+  .max-img {
+    width: 43%;
+    margin: 0 0 10px;
+}
+
+.max-img1 {
+    width: 26%;
+    margin: 0 0 10px 10px;
+}
+
+.max-img2 {
+    display: none;
+  }
+
+  .max-img3 {
+    width: 70%;
+}
+
+.gray-bg .integration-illustration{
+  display: none;
+}
+
+.step-section {
+  width: 95%;
+  max-width: 1100px;
+  padding: 0px 0 0 !important;
+}
+
+.step-lft {
+  width: 100% !important;
+  position: relative;
+  top: 70px;
+}
+
+.step-rght{
+  position: relative;
+  top: 82px;
+}
+
+.step-rght img{
+  width: 100%;
+}
+
+
+}
+
+.bluebg-one .bluebg-one_head{
+  font-size: 18px;
 }
 
 
@@ -16648,9 +16823,16 @@ body.boxed-wrapper .hero-banner__thumb {
 
 .bluebg-one{
 	position: relative;
-	/* margin-top: -180px; */
+	padding-left: 10px;
+  padding-right: 10px;
 	z-index: 2;
   background-color: #0123D1;
+  color: #fff;
+  text-align: center;
+}
+
+.bluebg-one a{
+  color: rgb(248, 211, 0);
 }
 
 .bluebg-one .carousel {
@@ -16700,6 +16882,8 @@ body.boxed-wrapper .hero-banner__thumb {
 
 }
 
+
+
 .whychose-sec .whychose-sec-content li{
   color: black;
 }
@@ -16709,6 +16893,7 @@ body.boxed-wrapper .hero-banner__thumb {
   font-size: 40px;
   color: black;
   font-weight: 600;
+  line-height: 70px;
 }
 
 .crmvideo-one {
@@ -16750,6 +16935,141 @@ body.boxed-wrapper .hero-banner__thumb {
   padding-left: 35px;
   margin-bottom: 24px;
 }
+
+.crmvdo-sec {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.vdo-txts {
+  font: 16px / 1.2 var(--zf-primary-regular);
+  letter-spacing: -0.16px;
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: #fff;
+}
+
+.video-play-button {
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  right: 11px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  width: 0;
+  height: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #fff;
+  padding: 25px 20px 20px 25px;
+}
+
+.vdo-imgsec {
+  border-radius: 20px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .vdo-cntnt-sec {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      max-width: 100%;
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      padding: 45px 40px;
+      box-sizing: border-box;
+      background: #262626;
+  }
+
+  .crmvdoc-sec {
+    width: 50%;
+}
+
+.crmvideo-sec {
+  display: block;
+  background: #00000000;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.crmvdo-sec {
+  width: 50%;
+  margin: 0 0 0 35px;
+}
+.vdo-txts {
+  position: static;
+  color: #bbb;
+  font-size: 14px;
+}
+
+.crmvideo-one-content{
+  display: flex;
+}
+
+.crmvideo-one-white {
+  border-radius: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 57px 10px 54px;
+  box-sizing: border-box;
+  max-width: 1000px;
+  color: #000;
+  margin: 27px -82px -56px;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+  .vdo-whte-sec, .vdo-cntnt-sec {
+      padding: 35px 25px;
+  }
+  .vdo-cntnt-sec {
+    display: block;
+}
+
+.crmvdoc-sec {
+  width: 100%;
+}
+
+.crmvdo-sec {
+  width: 100%;
+  margin: 35px 0 0;
+  max-width: 500px;
+}
+
+.video-play-button {
+  top: 35px;
+  right: 0;
+  padding: 16px 16px 16px 20px;
+}
+
+.crmvideo-one-content{
+  display: inline;
+}
+
+.crmvideo-one {
+  padding: 42px 10px 0;
+  max-width: 1400px;
+  margin: 41px auto;
+  width: 95%;
+}
+
+.crmvideo-one-white {
+  border-radius: 55px;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+  padding: 52px 15px 0;
+  margin: 25px -59px -53px;
+}
+}
 .list-item {
   width: 50%;
   padding-left: 95px;
@@ -16763,7 +17083,7 @@ body.boxed-wrapper .hero-banner__thumb {
 .entrprse-con {
   position: relative;
   height: 250px;
-  right: -275px;
+  right: -52px;
 }
 
 
